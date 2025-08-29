@@ -1,0 +1,13 @@
+{
+  "routes": [
+    {
+      "route": "/robots.txt",
+      "serve": "/robots.txt"
+    },
+    {
+      "route": "/*",
+      "redirect": "/mta-sts.txt",
+      "statusCode": 301
+    }
+  ]
+}
